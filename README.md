@@ -37,3 +37,8 @@ Hanna | Contact & Reservation
 1. normal-text(paragraph, button, placeholder text): 'Lato', sans-serif;
 2. Name of website: ??
 
+
+## Wireframe
+
+https://wireframe.cc/z5DSJh
+
