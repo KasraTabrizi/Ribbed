@@ -10,10 +10,10 @@ Members:
 
 Job of each member:
 
-Member | Function
+Member | Task
 ------------ | -------------
 Kasra | Main HTML & Menu
-Steven | Navbar & About Us
+Steven | Navbar & Our Story
 Moumita | Carousel
 Hanna | Contact & Reservation
 
@@ -25,6 +25,12 @@ Hanna | Contact & Reservation
 3. BOOTSTRAP
 
 ## Colors
+
+Main color (redbrown): #92282D
+Secondary color 1: yellowish: #E1CA6E
+Secondary color 2: orange: #E09527
+Secondary color 3: black: #000
+Secondary color 4: white: #fff
 
 ## Font Family
 
