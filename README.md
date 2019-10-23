@@ -34,5 +34,6 @@ Hanna | Contact & Reservation
 
 ## Font Family
 
-
+1. normal-text(paragraph, button, placeholder text): 'Lato', sans-serif;
+2. Name of website: ??
 
