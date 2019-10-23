@@ -26,11 +26,11 @@ Hanna | Contact & Reservation
 
 ## Colors
 
-Main color (redbrown): #92282D
-Secondary color 1: yellowish: #E1CA6E
-Secondary color 2: orange: #E09527
-Secondary color 3: black: #000
-Secondary color 4: white: #fff
+1. Main color (redbrown): #92282D
+2. Secondary color 1: yellowish: #E1CA6E
+3. Secondary color 2: orange: #E09527
+4. Secondary color 3: black: #000
+5. Secondary color 4: white: #fff
 
 ## Font Family
 
