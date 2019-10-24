@@ -3,11 +3,15 @@
     width: 40%;
     position: absolute;
     z-index: 2;
+    /*box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);*/
+    background-color: #FCFDAF;
+    border: 4px dashed rgba(146, 40, 45, 1);
 }
 
 h2 {
     text-align: center;
     margin: 50px;
+    font-size: 2.5em;
 }
 
 .container {
@@ -17,28 +21,28 @@ h2 {
     .menu1_image {
         position: relative;
         z-index: 1;
-        border: 1px solid black;
-        max-width: 800px;
-        overflow: hidden;
+        /*border: 1px solid black;*/
+        img {
+            max-width: 800px;
+        }
     }
     .menu_description1 {
         @include menu-description;
-        background-color: blue;
         top: 20%;
         right: 1%;
     }
     .menu_description2 {
         @include menu-description;
-        background-color: red;
-        top: -20%;
+        top: -10%;
         right: 60%;
     }
     .menu2_image {
         text-align: right;
         position: relative;
         z-index: 1;
-        max-width: 800px;
-        overflow: hidden;
+        img {
+            max-width: 800px;
+        }
     }
     .menu_option {
         display: flex;
@@ -46,16 +50,18 @@ h2 {
         justify-content: space-between;
     }
     h3 {
-        font-size: 2em;
+        font-size: 2.2em;
         margin-bottom: 30px;
     }
     .menu_title,
     .price {
         font-size: 1.2em;
         font-weight: 600;
+        color: #92282D;
     }
     p {
-        font-size: 0.9em;
+        font-size: 0.7em;
+        color: gray;
     }
     section {
         margin-bottom: 30px;
