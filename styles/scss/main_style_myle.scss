@@ -1,15 +1,12 @@
 // -----Reservation ---/
 // --- imports -----------------------------------------------------------------
-@import: // --- variables ---------------------------------------------------------------
 * {
     box-sizing: border-box;
 }
 
-$txtcolor: #fff $mq-mobile : 768px;
-$mq-tablet : 1024px;
-
-@reservation 
-
+$txtcolor: #fff;
+$mq-mobile: 768px;
+$mq-tablet: 1024px;
 // --- placeholders ------------------------------------------------------------
 // --- mixins ------------------------------------------------------------------
 // --- core --------------------------------------------------------------------
@@ -18,16 +15,18 @@ $mq-tablet : 1024px;
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
 }
+
 #reservation {
     background-image: url("images/main_back_gr.jpg");
     background-attachment: fixed;
     background-position: 50% -179.387px;
 }
+
 .containerReser {
-    background-image: url(.images/main_back_gr.jpg) background-attachment: fixed;
+    background-image: url(.images/main_back_gr.jpg);
+    background-attachment: fixed;
     background-position: fixed;
 }
-
 
 .rib_fixed {
     background-attachment: scroll !important;
@@ -42,15 +41,6 @@ $mq-tablet : 1024px;
 p {
     margin-bottom: 30px;
     margin: 0 0 10px;
-    color;
-    $textcolor
 }
-
-
-/*@media (max-width: 1024px)
-.rib_section .containerReser {
-    padding-top: 56px;
-    padding-bottom: 46px;
-} */
 
 // --- core: contact -----------------------------------------------------------
