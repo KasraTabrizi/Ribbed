@@ -35,5 +35,10 @@ Hanna | Contact & Reservation
 ## Font Family
 
 1. normal-text(paragraph, button, placeholder text): 'Lato', sans-serif;
-2. Name of website: ??
+2. Name of website: Ribbed
+
+
+## Wireframe
+
+https://wireframe.cc/z5DSJh
 

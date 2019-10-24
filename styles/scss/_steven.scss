@@ -1,0 +1,29 @@
+.navbarimg {
+    background-image: url(https://previews.123rf.com/images/arsty/arsty1507/arsty150700005/43296106-the-painted-wooden-boards-as-a-background.jpg);
+    width: 100vw;
+    height: 30px;
+    overflow: cover;
+}
+
+.our-story {
+    margin-bottom: 200px;
+    position: relative;
+}
+
+.info {
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    background-color: blue;
+    top: 20%;
+    right: 1%;
+}
+
+.story-img {
+    position: relative;
+    z-index: 1;
+    border: 1px solid black;
+    max-width: 800px;
+    overflow: hidden;
+}
