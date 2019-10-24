@@ -1,45 +1,59 @@
 h2 {
   text-align: center;
-  padding: 20px;
+  margin: 50px;
 }
 
-.menu_container {
+.container {
   border: 1px solid black;
   margin-bottom: 200px;
   position: relative;
 }
-
-.menu1_image {
+.container .menu1_image {
   position: relative;
   z-index: 1;
 }
-
-.menu_description1 {
-  padding: 50px;
+.container .menu_description1 {
+  padding: 60px;
   background-color: blue;
-  /* border: 1px solid black;*/
   width: 40%;
   position: absolute;
   top: 20%;
   right: 1%;
   z-index: 2;
 }
-
-.menu2_image {
-  text-align: right;
-  position: relative;
-  z-index: 1;
-}
-
-.menu_description2 {
-  padding: 50px;
+.container .menu_description2 {
+  padding: 60px;
   background-color: red;
-  /* border: 1px solid black;*/
   width: 40%;
   position: absolute;
   top: -20%;
   right: 60%;
   z-index: 2;
+}
+.container .menu2_image {
+  text-align: right;
+  position: relative;
+  z-index: 1;
+}
+.container .menu_option {
+  display: flex;
+  /*border: 1px solid black;**/
+  justify-content: space-between;
+}
+.container h3 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.container .menu_title,
+.container .price {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.container p {
+  font-size: 0.9em;
+}
+.container section {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=main_style.css.map */
