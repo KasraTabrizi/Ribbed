@@ -1,41 +1,31 @@
-/*# sourceMappingURL=main_style.css.map */
-
 .navbarimg {
-    background-image: url(https://previews.123rf.com/images/mironovak/mironovak1512/mironovak151200130/50152413-white-wood-background-or-wooden-boards-texture.jpg);
-    width: 100vw;
-    height: 80px;
-    overflow: cover;
-    position: fixed;
-    z-index: 10;
-}
-
-a {
-    color: #000;
-}
-
-a:hover {
-    color: green;
+  background-image: url(https://previews.123rf.com/images/arsty/arsty1507/arsty150700005/43296106-the-painted-wooden-boards-as-a-background.jpg);
+  width: 100vw;
+  height: 30px;
+  overflow: cover;
 }
 
 .our-story {
-    margin-bottom: 200px;
-    position: relative;
+  margin-bottom: 200px;
+  position: relative;
 }
 
 .info {
-    padding: 60px;
-    width: 40%;
-    position: absolute;
-    z-index: 2;
-    background-color: blue;
-    top: 20%;
-    right: 1%;
+  padding: 60px;
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+  background-color: blue;
+  top: 20%;
+  right: 1%;
 }
 
 .story-img {
-    position: relative;
-    z-index: 1;
-    border: 1px solid black;
-    max-width: 800px;
-    overflow: hidden;
+  position: relative;
+  z-index: 1;
+  border: 1px solid black;
+  max-width: 800px;
+  overflow: hidden;
 }
+
+/*# sourceMappingURL=main_style.css.map */
