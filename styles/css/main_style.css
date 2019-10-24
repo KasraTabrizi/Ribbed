@@ -11,8 +11,9 @@ h2 {
 .container .menu1_image {
   position: relative;
   z-index: 1;
+  border: 1px solid black;
   max-width: 800px;
-  width: 800px;
+  overflow: hidden;
 }
 .container .menu_description1 {
   padding: 60px;
@@ -36,8 +37,8 @@ h2 {
   text-align: right;
   position: relative;
   z-index: 1;
-  width: 640px;
-  object-fit: cover;
+  max-width: 800px;
+  overflow: hidden;
 }
 .container .menu_option {
   display: flex;
