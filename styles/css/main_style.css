@@ -4,36 +4,40 @@ h2 {
 }
 
 .container {
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   margin-bottom: 200px;
   position: relative;
 }
 .container .menu1_image {
   position: relative;
   z-index: 1;
+  max-width: 800px;
+  width: 800px;
 }
 .container .menu_description1 {
   padding: 60px;
-  background-color: blue;
   width: 40%;
   position: absolute;
+  z-index: 2;
+  background-color: blue;
   top: 20%;
   right: 1%;
-  z-index: 2;
 }
 .container .menu_description2 {
   padding: 60px;
-  background-color: red;
   width: 40%;
   position: absolute;
+  z-index: 2;
+  background-color: red;
   top: -20%;
   right: 60%;
-  z-index: 2;
 }
 .container .menu2_image {
   text-align: right;
   position: relative;
   z-index: 1;
+  width: 640px;
+  object-fit: cover;
 }
 .container .menu_option {
   display: flex;

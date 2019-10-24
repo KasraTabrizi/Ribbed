@@ -1,38 +1,43 @@
+@mixin menu-description {
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+}
+
 h2 {
     text-align: center;
     margin: 50px;
 }
 
 .container {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin-bottom: 200px;
     position: relative;
     .menu1_image {
         position: relative;
         z-index: 1;
+        max-width: 800px;
+        width: 800px;
     }
     .menu_description1 {
-        padding: 60px;
+        @include menu-description;
         background-color: blue;
-        width: 40%;
-        position: absolute;
         top: 20%;
         right: 1%;
-        z-index: 2;
     }
     .menu_description2 {
-        padding: 60px;
+        @include menu-description;
         background-color: red;
-        width: 40%;
-        position: absolute;
         top: -20%;
         right: 60%;
-        z-index: 2;
     }
     .menu2_image {
         text-align: right;
         position: relative;
         z-index: 1;
+        width: 640px;
+        object-fit: cover;
     }
     .menu_option {
         display: flex;
