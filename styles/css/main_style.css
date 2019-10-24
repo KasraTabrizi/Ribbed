@@ -24,7 +24,8 @@ h2 {
   z-index: 2;
   /*box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);*/
   background-color: #FCFDAF;
-  border: 4px dashed #92282d;
+  background-size: cover;
+  border: 4px dashed rgba(146, 40, 45, 0.5);
   top: 20%;
   right: 1%;
 }
@@ -35,8 +36,9 @@ h2 {
   z-index: 2;
   /*box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);*/
   background-color: #FCFDAF;
-  border: 4px dashed #92282d;
-  top: -10%;
+  background-size: cover;
+  border: 4px dashed rgba(146, 40, 45, 0.5);
+  top: 8%;
   right: 60%;
 }
 .container .menu2_image {
