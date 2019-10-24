@@ -7,6 +7,9 @@
 
 $txtcolor: #fff $mq-mobile : 768px;
 $mq-tablet : 1024px;
+
+@reservation 
+
 // --- placeholders ------------------------------------------------------------
 // --- mixins ------------------------------------------------------------------
 // --- core --------------------------------------------------------------------
@@ -15,11 +18,19 @@ $mq-tablet : 1024px;
     -webkit-text-size-adjust: none;
     -ms-text-size-adjust: none;
 }
-
+#reservation {
+    background-image: url("images/main_back_gr.jpg");
+    background-attachment: fixed;
+    background-position: 50% -179.387px;
+}
 .containerReser {
     background-image: url(.images/main_back_gr.jpg) background-attachment: fixed;
     background-position: fixed;
-    50% -179.387px;
+}
+
+
+.rib_fixed {
+    background-attachment: scroll !important;
 }
 
 .text-center p {
