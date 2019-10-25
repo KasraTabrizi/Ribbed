@@ -1,29 +1,58 @@
 .navbarimg {
-    background-image: url(https://previews.123rf.com/images/arsty/arsty1507/arsty150700005/43296106-the-painted-wooden-boards-as-a-background.jpg);
     width: 100vw;
     height: 30px;
     overflow: cover;
+    z-index: 90;
+    position: fixed;
+    a {
+        font-size: 3em;
+        font-weight: 800;
+        color: #E09527;
+    }
+    .smlinks {
+        float: right;
+    }
 }
 
-.our-story {
+h2 {
+    text-align: center;
+    margin: 50px;
+    font-size: 2.5em;
+}
+
+
+/*border: 1px solid black;*/
+
+.container {
     margin-bottom: 200px;
     position: relative;
-}
-
-.info {
-    padding: 60px;
-    width: 40%;
-    position: absolute;
-    z-index: 2;
-    background-color: blue;
-    top: 20%;
-    right: 1%;
-}
-
-.story-img {
-    position: relative;
-    z-index: 1;
-    border: 1px solid black;
-    max-width: 800px;
-    overflow: hidden;
+    .info {
+        padding: 60px;
+        width: 40%;
+        position: absolute;
+        z-index: 2;
+        box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);
+        background-color: #FCFDAF;
+        background-size: cover;
+        border: 4px dashed rgba(146, 40, 45, 0.5);
+        top: 8%;
+        right: 60%;
+        h3 {
+            font-size: 2.2em;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #92282D;
+        }
+    }
+    .story-img {
+        text-align: right;
+        position: relative;
+        z-index: 1;
+        img {
+            max-width: 800px;
+        }
+    }
 }
