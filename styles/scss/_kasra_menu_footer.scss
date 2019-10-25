@@ -16,13 +16,11 @@ h2 {
 }
 
 .container {
-    /*border: 1px solid black;*/
     margin-bottom: 200px;
     position: relative;
     .menu1_image {
         position: relative;
         z-index: 1;
-        /*border: 1px solid black;*/
         img {
             max-width: 800px;
         }
@@ -47,7 +45,6 @@ h2 {
     }
     .menu_option {
         display: flex;
-        /*border: 1px solid black;**/
         justify-content: space-between;
     }
     h3 {
