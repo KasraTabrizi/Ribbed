@@ -1,0 +1,209 @@
+.navbarimg {
+  background-image: url(https://previews.123rf.com/images/arsty/arsty1507/arsty150700005/43296106-the-painted-wooden-boards-as-a-background.jpg);
+  width: 100vw;
+  height: 30px;
+  overflow: cover;
+}
+
+.our-story {
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.info {
+  padding: 60px;
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+  background-color: blue;
+  top: 20%;
+  right: 1%;
+}
+
+.story-img {
+  position: relative;
+  z-index: 1;
+  border: 1px solid black;
+  max-width: 800px;
+  overflow: hidden;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px;
+  font-size: 2.5em;
+}
+
+.container {
+  /*border: 1px solid black;*/
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.container .menu1_image {
+  position: relative;
+  z-index: 1;
+  /*border: 1px solid black;*/
+}
+
+.container .menu1_image img {
+  max-width: 800px;
+}
+
+.container .menu_description1 {
+  padding: 60px;
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+  -webkit-box-shadow: 0px 10px 20px -14px #92282d;
+          box-shadow: 0px 10px 20px -14px #92282d;
+  background-color: #FCFDAF;
+  background-size: cover;
+  border: 4px dashed rgba(146, 40, 45, 0.5);
+  top: 20%;
+  right: 1%;
+}
+
+.container .menu_description2 {
+  padding: 60px;
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+  -webkit-box-shadow: 0px 10px 20px -14px #92282d;
+          box-shadow: 0px 10px 20px -14px #92282d;
+  background-color: #FCFDAF;
+  background-size: cover;
+  border: 4px dashed rgba(146, 40, 45, 0.5);
+  top: 8%;
+  right: 60%;
+}
+
+.container .menu2_image {
+  text-align: right;
+  position: relative;
+  z-index: 1;
+}
+
+.container .menu2_image img {
+  max-width: 800px;
+}
+
+.container .menu_option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*border: 1px solid black;**/
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container h3 {
+  font-size: 2.2em;
+  margin-bottom: 30px;
+}
+
+.container .menu_title,
+.container .price {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #92282D;
+}
+
+.container p {
+  font-size: 0.7em;
+  color: gray;
+}
+
+.container section {
+  margin-bottom: 30px;
+}
+
+#footer {
+  text-align: center;
+  background-color: #92282D;
+  color: white;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.card-header {
+  font-size: 7rem;
+  color: #E09527;
+}
+
+.ribtext {
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+
+.food {
+  color: tomato;
+  font-size: 3rem;
+}
+
+.logo {
+  border-image-width: 5%;
+}
+
+.container {
+  margin-bottom: 200px;
+  position: relative;
+}
+
+.container .contact_image {
+  text-align: right;
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.container .contact_description {
+  padding: 60px;
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+  -webkit-box-shadow: 0px 10px 20px -14px #92282d;
+          box-shadow: 0px 10px 20px -14px #92282d;
+  background-color: #FCFDAF;
+  border: 4px dashed rgba(146, 40, 45, 0.5);
+  background-size: cover;
+  top: 20%;
+  right: 1%;
+}
+
+.container .contact_description h3 {
+  font-size: 2.2em;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font: 400 24px/30px Bree Serif, Arial;
+}
+
+.container .contact_description p {
+  font-size: 0.7em;
+  color: #E09527;
+}
+
+.container .contact_description .contact_detail {
+  line-height: 30px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 800px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 800px;
+}
+/*# sourceMappingURL=main.css.map */
