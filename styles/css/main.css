@@ -128,6 +128,12 @@ h2 {
   list-style-type: none;
   display: inline-block;
 }
+#footer img {
+  transition: 0.2s ease-in;
+}
+#footer img:hover {
+  transform: scale(1.4) translateY(-5px);
+}
 #footer .copyright {
   padding-bottom: 5px;
 }
