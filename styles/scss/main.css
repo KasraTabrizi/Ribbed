@@ -149,19 +149,19 @@ h2 {
   border-image-width: 5%;
 }
 
-.container {
+.container_contact {
   margin-bottom: 200px;
   position: relative;
 }
 
-.container .contact_image {
+.container_contact .contact_image {
   text-align: right;
   position: relative;
   z-index: 1;
   max-width: 800px;
 }
 
-.container .contact_description {
+.container_contact .contact_description {
   padding: 60px;
   width: 40%;
   position: absolute;
@@ -175,19 +175,19 @@ h2 {
   right: 1%;
 }
 
-.container .contact_description h3 {
+.container_contact .contact_description h3 {
   font-size: 2.2em;
   margin-bottom: 30px;
   margin-top: 20px;
   font: 400 24px/30px Bree Serif, Arial;
 }
 
-.container .contact_description p {
+.container_contact .contact_description p {
   font-size: 0.7em;
   color: #E09527;
 }
 
-.container .contact_description .contact_detail {
+.container_contact .contact_description .contact_detail {
   line-height: 30px;
   margin-right: -15px;
   margin-left: -15px;
