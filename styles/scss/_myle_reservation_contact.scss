@@ -1,33 +1,86 @@
-* {
-    box-sizing: border-box;
+@mixin contact-description {
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);
+    background-color: #FCFDAF;
+    border: 4px dashed rgba(146, 40, 45, 0.5);
+    background-size: cover;
 }
 
-$mq-mobile: 768px;
-$mq-tablet: 1024px;
-#reservation {
-    background-image: url("images/main_back_gr.jpg");
-    background-attachment: fixed;
-    background-position: 50% -179.387px;
+.container {
+    margin-bottom: 200px;
+    position: relative;
+    .contact_image {
+        text-align: right;
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+    }
+    .contact_description {
+        @include contact-description;
+        top: -10%;
+        right: 1%;
+        h3 {
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            font: 400 24px/30px Bree Serif, Arial;
+        }
+        p {
+            font-size: 16px;
+            color: #E09527;
+        }
+        .contact_detail {
+            line-height: 30px;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+    }
 }
 
-.containerReser {
-    background-image: url(.images/main_back_gr.jpg);
-    background-attachment: fixed;
-    background-position: fixed;
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 800px;
 }
 
-.rib_fixed {
-    background-attachment: scroll !important;
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 500px;
+    width: 800px;
 }
 
-.text-center {
-    width: 50%;
-    margin: 0 auto;
+.resimage {
+    background-image: url(/images/black_background.jpg);
 }
 
-p {
-    margin-bottom: 30px;
-    margin: 0 0 10px;
+.row {
+    justify-items: center;
 }
 
-// --- core: contact -----------------------------------------------------------
+
+/*.main_back_gr_image {
+    position: relative;
+    overflow: hidden;
+}
+
+.main_back_gr_image::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url(images/main_back_gr.jpg);
+    background-repeat: no-repeat;
+}
+.black_background {
+    background-image: url(images/main_back_gr.jpg);
+    height: 500px;
+} 8*/
