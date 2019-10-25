@@ -1,28 +1,56 @@
 .navbarimg {
-  background-image: url(https://previews.123rf.com/images/arsty/arsty1507/arsty150700005/43296106-the-painted-wooden-boards-as-a-background.jpg);
   width: 100vw;
   height: 30px;
-  overflow: cover; }
+  overflow: cover;
+  z-index: 90; }
+  .navbarimg a {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #E09527; }
+  .navbarimg .smlinks {
+    float: right; }
 
-.our-story {
+.bg-dark {
+  background: transparent !important;
+  transition: 90ms ease; }
+
+.bg-dark.scrolled {
+  background-image: url(/images/black_background.jpg) !important;
+  background-size: cover; }
+
+h2 {
+  text-align: center;
+  margin: 50px;
+  font-size: 2.5em; }
+
+/*border: 1px solid black;*/
+.container {
   margin-bottom: 200px;
   position: relative; }
-
-.info {
-  padding: 60px;
-  width: 40%;
-  position: absolute;
-  z-index: 2;
-  background-color: blue;
-  top: 20%;
-  right: 1%; }
-
-.story-img {
-  position: relative;
-  z-index: 1;
-  border: 1px solid black;
-  max-width: 800px;
-  overflow: hidden; }
+  .container .info {
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 10px 20px -14px #92282d;
+    background-color: #FCFDAF;
+    background-size: cover;
+    border: 4px dashed rgba(146, 40, 45, 0.5);
+    top: 8%;
+    right: 60%; }
+    .container .info h3 {
+      font-size: 2.2em;
+      margin-bottom: 30px; }
+    .container .info p {
+      font-size: 1.2em;
+      font-weight: 600;
+      color: #92282D; }
+  .container .story-img {
+    text-align: right;
+    position: relative;
+    z-index: 1; }
+    .container .story-img img {
+      max-width: 800px; }
 
 h2 {
   text-align: center;
@@ -87,8 +115,9 @@ h2 {
 
 #footer {
   text-align: center;
-  background-color: #92282D;
-  color: white; }
+  background-image: url(/images/black_background.jpg);
+  color: white;
+}
 
 .carousel-item img {
   max-width: 100%;
@@ -136,5 +165,10 @@ h2 {
 p {
   margin-bottom: 30px;
   margin: 0 0 10px; }
+
+body {
+  background-image: url(/images/white_background.jpg);
+}
+
 
 /*# sourceMappingURL=main.css.map */
