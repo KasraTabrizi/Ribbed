@@ -104,7 +104,8 @@ h2 {
 
 #footer {
   text-align: center;
-  background-color: #92282D;
+  background-image: url(/images/black_background.jpg);
+  /*background-color: #92282D;*/
   color: white;
 }
 
@@ -160,6 +161,10 @@ h2 {
 p {
   margin-bottom: 30px;
   margin: 0 0 10px;
+}
+
+body {
+  background-image: url(/images/white_background.jpg);
 }
 
 /*# sourceMappingURL=main.css.map */
