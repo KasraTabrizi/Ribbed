@@ -2,13 +2,11 @@
   background-image: url(https://previews.123rf.com/images/arsty/arsty1507/arsty150700005/43296106-the-painted-wooden-boards-as-a-background.jpg);
   width: 100vw;
   height: 30px;
-  overflow: cover;
-}
+  overflow: cover; }
 
 .our-story {
   margin-bottom: 200px;
-  position: relative;
-}
+  position: relative; }
 
 .info {
   padding: 60px;
@@ -17,149 +15,126 @@
   z-index: 2;
   background-color: blue;
   top: 20%;
-  right: 1%;
-}
+  right: 1%; }
 
 .story-img {
   position: relative;
   z-index: 1;
   border: 1px solid black;
   max-width: 800px;
-  overflow: hidden;
-}
+  overflow: hidden; }
 
 h2 {
   text-align: center;
   margin: 50px;
-  font-size: 2.5em;
-}
+  font-size: 2.5em; }
 
 .container {
   /*border: 1px solid black;*/
   margin-bottom: 200px;
-  position: relative;
-}
-.container .menu1_image {
-  position: relative;
-  z-index: 1;
-  /*border: 1px solid black;*/
-}
-.container .menu1_image img {
-  max-width: 800px;
-}
-.container .menu_description1 {
-  padding: 60px;
-  width: 40%;
-  position: absolute;
-  z-index: 2;
-  box-shadow: 0px 10px 20px -14px #92282d;
-  background-color: #FCFDAF;
-  background-size: cover;
-  border: 4px dashed rgba(146, 40, 45, 0.5);
-  top: 20%;
-  right: 1%;
-}
-.container .menu_description2 {
-  padding: 60px;
-  width: 40%;
-  position: absolute;
-  z-index: 2;
-  box-shadow: 0px 10px 20px -14px #92282d;
-  background-color: #FCFDAF;
-  background-size: cover;
-  border: 4px dashed rgba(146, 40, 45, 0.5);
-  top: 8%;
-  right: 60%;
-}
-.container .menu2_image {
-  text-align: right;
-  position: relative;
-  z-index: 1;
-}
-.container .menu2_image img {
-  max-width: 800px;
-}
-.container .menu_option {
-  display: flex;
-  /*border: 1px solid black;**/
-  justify-content: space-between;
-}
-.container h3 {
-  font-size: 2.2em;
-  margin-bottom: 30px;
-}
-.container .menu_title,
-.container .price {
-  font-size: 1.2em;
-  font-weight: 600;
-  color: #92282D;
-}
-.container p {
-  font-size: 0.7em;
-  color: gray;
-}
-.container section {
-  margin-bottom: 30px;
-}
+  position: relative; }
+  .container .menu1_image {
+    position: relative;
+    z-index: 1;
+    /*border: 1px solid black;*/ }
+    .container .menu1_image img {
+      max-width: 800px; }
+  .container .menu_description1 {
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 10px 20px -14px #92282d;
+    background-color: #FCFDAF;
+    background-size: cover;
+    border: 4px dashed rgba(146, 40, 45, 0.5);
+    top: 20%;
+    right: 1%; }
+  .container .menu_description2 {
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 10px 20px -14px #92282d;
+    background-color: #FCFDAF;
+    background-size: cover;
+    border: 4px dashed rgba(146, 40, 45, 0.5);
+    top: 8%;
+    right: 60%; }
+  .container .menu2_image {
+    text-align: right;
+    position: relative;
+    z-index: 1; }
+    .container .menu2_image img {
+      max-width: 800px; }
+  .container .menu_option {
+    display: flex;
+    /*border: 1px solid black;**/
+    justify-content: space-between; }
+  .container h3 {
+    font-size: 2.2em;
+    margin-bottom: 30px; }
+  .container .menu_title,
+  .container .price {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #92282D; }
+  .container p {
+    font-size: 0.7em;
+    color: gray; }
+  .container section {
+    margin-bottom: 30px; }
 
 #footer {
   text-align: center;
   background-color: #92282D;
-  color: white;
-}
+  color: white; }
 
 .carousel-item img {
   max-width: 100%;
-  height: 100vh;
-}
+  height: 100vh; }
 
 .card-header {
-  font-size: 7rem;
-  color: #E09527;
-}
+  font-size: 5rem; }
 
 .ribtext {
   margin: 0 auto;
   margin-bottom: 150px;
-}
+  color: #ee0101;
+  text-shadow: 3px 2px #fdf91d; }
 
 .food {
-  color: tomato;
-  font-size: 3rem;
-}
+  color: #cc6613;
+  font-size: 2rem; }
 
-.logo {
-  border-image-width: 5%;
-}
+.it {
+  color: #57d105;
+  font-size: 2rem;
+  text-decoration-line: underline;
+  text-shadow: 2px 2px #fffb00; }
 
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 #reservation {
   background-image: url("images/main_back_gr.jpg");
   background-attachment: fixed;
-  background-position: 50% -179.387px;
-}
+  background-position: 50% -179.387px; }
 
 .containerReser {
   background-image: url(.images/main_back_gr.jpg);
   background-attachment: fixed;
-  background-position: fixed;
-}
+  background-position: fixed; }
 
 .rib_fixed {
-  background-attachment: scroll !important;
-}
+  background-attachment: scroll !important; }
 
 .text-center {
   width: 50%;
-  margin: 0 auto;
-}
+  margin: 0 auto; }
 
 p {
   margin-bottom: 30px;
-  margin: 0 0 10px;
-}
+  margin: 0 0 10px; }
 
 /*# sourceMappingURL=main.css.map */
