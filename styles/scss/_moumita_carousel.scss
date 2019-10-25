@@ -4,20 +4,27 @@
 }
 
 .card-header {
-    font-size: 7rem;
-    color: #E09527;
+    font-size: 5rem;
+    
+    
 }
 
 .ribtext {
     margin: 0 auto;
     margin-bottom: 150px;
+    color: rgb(238, 1, 1);
+    text-shadow: 3px 2px rgb(253, 249, 29);
+
 }
 
 .food {
-    color: tomato;
-    font-size: 3rem;
+    color:rgb(204, 102, 19);
+    font-size: 2rem;
 }
 
-.logo {
-    border-image-width: 5%;
+.it{
+    color: rgb(87, 209, 5);
+    font-size: 2rem;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px rgb(255, 251, 0);
 }
