@@ -209,6 +209,7 @@ h2 {
 
 .resimage {
   background-image: url(/images/black_background.jpg);
+  background-repeat: no-repeat;
 }
 
 /*.main_back_gr_image {
