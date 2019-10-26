@@ -262,6 +262,10 @@ h2 {
   justify-items: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(/images/white_background.jpg);
 }

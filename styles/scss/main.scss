@@ -4,6 +4,10 @@
 @import 'kasra_menu_footer';
 @import 'moumita_carousel';
 @import 'myle_reservation_contact';
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url(/images/white_background.jpg);
 }
