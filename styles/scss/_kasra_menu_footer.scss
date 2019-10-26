@@ -16,13 +16,11 @@ h2 {
 }
 
 .container {
-    /*border: 1px solid black;*/
     margin-bottom: 200px;
     position: relative;
     .menu1_image {
         position: relative;
         z-index: 1;
-        /*border: 1px solid black;*/
         img {
             max-width: 800px;
         }
@@ -47,7 +45,6 @@ h2 {
     }
     .menu_option {
         display: flex;
-        /*border: 1px solid black;**/
         justify-content: space-between;
     }
     h3 {
@@ -73,4 +70,37 @@ h2 {
     text-align: center;
     background-image: url(/images/black_background.jpg);
     color: white;
+    .restaurant-name {
+        color: $header1color_straw;
+        font-size: 2em;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        font-weight: 800;
+    }
+    p {
+        padding: 0 35%;
+    }
+    .social-media {
+        margin: 50px auto;
+        ul {
+            list-style-position: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            li {
+                padding: 10px;
+                list-style-type: none;
+                display: inline-block;
+            }
+        }
+    }
+    img {
+        transition: 0.2s ease-in;
+        &:hover {
+            transform: scale(1.4) translateY(-5px);
+        }
+    }
+    .copyright {
+        padding-bottom: 5px;
+    }
 }
