@@ -1,14 +1,18 @@
 # Ribbed
 Ribs Restaurant Website 
 
-Members:
+## Style of Website
+
+One pager
+
+## Members
 
 - Kasra
 - Steven
 - Moumita
 - Hanna
 
-Job of each member:
+## Task(s) of each member:
 
 Member | Task
 ------------ | -------------
