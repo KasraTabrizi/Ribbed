@@ -17,7 +17,7 @@ One pager
 
 Member | Task
 ------------ | -------------
-Kasra | Main HTML & Menu
+Kasra | Project Manager, Main HTML & Menu
 Steven | Navbar & Our Story
 Moumita | Carousel
 Hanna | Contact & Reservation
