@@ -19,7 +19,7 @@ Member | Task
 ------------ | -------------
 Kasra | Project Manager, Main HTML & Menu
 Steven | Navbar & Our Story
-Moumita | Carousel
+Moumita | Carousel & Logo Design
 Hanna | Contact & Reservation
 
 
