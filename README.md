@@ -1,6 +1,7 @@
 # Ribbed
 Ribs Restaurant Website 
 
+
 ## Style of Website
 
 One pager
@@ -42,7 +43,8 @@ Hanna | Contact & Reservation
 2. Name of website: Ribbed
 
 
-## Wireframe
+## Wireframe Design
 
 https://wireframe.cc/z5DSJh
+
 
