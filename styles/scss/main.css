@@ -1,19 +1,4 @@
-.navbarimg {
-  width: 100vw;
-  height: 30px;
-  overflow: cover;
-  z-index: 90;
-}
 
-.navbarimg a {
-  font-size: 1.5em;
-  font-weight: 800;
-  color: #E09527;
-}
-
-.navbarimg .smlinks {
-  float: right;
-}
 
 .bg-dark {
   background: transparent !important;
@@ -243,10 +228,6 @@ h2 {
   text-shadow: 2px 2px #fffb00;
 }
 
-.container {
-  margin-bottom: 50px;
-  position: relative;
-}
 
 .container .contact_image {
   text-align: right;
@@ -287,14 +268,6 @@ h2 {
   margin-left: -15px;
 }
 
-.Reservation {
-  margin-bottom: 50px;
-}
-
-.col-md-5 {
-  padding: 4px;
-  margin: 10px;
-}
 
 .mapouter {
   position: relative;
