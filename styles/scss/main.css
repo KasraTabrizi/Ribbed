@@ -1,74 +1,4 @@
-@-webkit-keyframes pulse {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
 
-@keyframes pulse {
-  from {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  to {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-.navbarimg {
-  width: 100vw;
-  height: 30px;
-  overflow: cover;
-  z-index: 90;
-}
-
-.navbarimg .navbar-expand-md .navbar-nav .nav-link {
-  padding-right: 5em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.navbarimg .navbar-dark .navbar-nav .nav-link {
-  font-size: 1.5em;
-  color: #E09527;
-  font-weight: 800;
-}
-
-.navbarimg .navbar-dark .navbar-nav .nav-link:hover {
-  -webkit-animation-name: pulse;
-          animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-}
-
-.smlinks {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-left: 5em;
-}
 
 .bg-dark {
   background: transparent !important;
@@ -298,10 +228,6 @@ h2 {
   text-shadow: 2px 2px #fffb00;
 }
 
-.container {
-  margin-bottom: 200px;
-  position: relative;
-}
 
 .container .contact_image {
   text-align: right;
@@ -341,6 +267,7 @@ h2 {
   margin-right: -15px;
   margin-left: -15px;
 }
+
 
 .mapouter {
   position: relative;
