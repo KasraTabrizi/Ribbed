@@ -80,7 +80,7 @@ h2 {
 }
 .container .menu1_image img {
   max-width: 800px;
-  animation: mover1 1.5s infinite alternate;
+  animation: mover1 1.8s infinite alternate;
 }
 .container .menu_description1 {
   padding: 60px;
@@ -93,7 +93,7 @@ h2 {
   border: 4px dashed rgba(146, 40, 45, 0.5);
   top: 20%;
   right: 1%;
-  animation: mover2 1.8s infinite alternate;
+  animation: mover2 2s infinite alternate;
 }
 .container .menu_description2 {
   padding: 60px;

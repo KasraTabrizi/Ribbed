@@ -23,14 +23,14 @@ h2 {
         z-index: 1;
         img {
             max-width: 800px;
-            animation: mover1 1.5s infinite alternate;
+            animation: mover1 1.8s infinite alternate;
         }
     }
     .menu_description1 {
         @include menu-description;
         top: 20%;
         right: 1%;
-        animation: mover2 1.8s infinite alternate;
+        animation: mover2 2s infinite alternate;
     }
     .menu_description2 {
         @include menu-description;
