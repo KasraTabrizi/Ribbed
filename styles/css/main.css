@@ -63,7 +63,6 @@ h2 {
   max-width: 800px;
 }
 
-/*GENERAL STYLING USED FOR ALL MEDIA QUERIES*/
 h2 {
   text-align: center;
   margin: 50px;
@@ -133,7 +132,6 @@ h2 {
   padding-bottom: 5px;
 }
 
-/*MEDIA SCREEN BETWEEN 375 PX AND 1000 PX*/
 @media screen and (min-width: 375px) and (max-width: 1000px) {
   .container {
     /*margin-bottom: 200px;*/
@@ -160,7 +158,6 @@ h2 {
     margin-bottom: 10px;
   }
 }
-/*MEDIA SCREEN for 1000px and higher*/
 @media screen and (min-width: 1000px) {
   .container {
     margin-bottom: 200px;
