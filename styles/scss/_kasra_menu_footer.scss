@@ -1,128 +1,127 @@
-@mixin menu-description {
-    padding: 60px;
-    width: 40%;
-    position: absolute;
-    z-index: 2;
-    box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);
-    background-color: #FCFDAF;
-    background-size: cover;
-    border: 4px dashed rgba(146, 40, 45, 0.5);
-}
-
-h2 {
-    text-align: center;
-    margin: 50px;
-    padding: 50px;
-    font-size: 2.5em;
-}
-
-.container {
-    margin-bottom: 200px;
-    position: relative;
-    .menu1_image {
+@media screen and (min-width:1000px) {
+    @mixin menu-description {
+        padding: 60px;
+        width: 40%;
+        position: absolute;
+        z-index: 2;
+        box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);
+        background-color: #FCFDAF;
+        background-size: cover;
+        border: 4px dashed rgba(146, 40, 45, 0.5);
+    }
+    h2 {
+        text-align: center;
+        margin: 50px;
+        padding: 50px;
+        font-size: 2.5em;
+    }
+    .container {
+        margin-bottom: 200px;
         position: relative;
-        z-index: 1;
-        img {
-            max-width: 800px;
-            animation: mover1 1.8s infinite alternate;
+        .menu1_image {
+            position: relative;
+            z-index: 1;
+            img {
+                max-width: 800px;
+                animation: mover1 1.8s infinite alternate;
+            }
         }
-    }
-    .menu_description1 {
-        @include menu-description;
-        top: 20%;
-        right: 1%;
-        animation: mover2 2s infinite alternate;
-    }
-    .menu_description2 {
-        @include menu-description;
-        top: 8%;
-        right: 60%;
-        animation: mover2 1.8s infinite alternate;
-    }
-    .menu2_image {
-        text-align: right;
-        position: relative;
-        z-index: 1;
-        img {
-            max-width: 800px;
-            animation: mover1 1.5s infinite alternate;
+        .menu_description1 {
+            @include menu-description;
+            top: 20%;
+            right: 1%;
+            animation: mover2 2s infinite alternate;
         }
-    }
-    .menu_option {
-        display: flex;
-        justify-content: space-between;
-    }
-    h3 {
-        font-size: 2.2em;
-        margin-bottom: 30px;
-    }
-    .menu_title,
-    .price {
-        font-size: 1.2em;
-        font-weight: 600;
-        color: #92282D;
-    }
-    p {
-        font-size: 0.7em;
-        color: gray;
-    }
-    section {
-        margin-bottom: 30px;
-    }
-    @keyframes mover1 {
-        0% {
-            transform: translateY(0);
+        .menu_description2 {
+            @include menu-description;
+            top: 8%;
+            right: 60%;
+            animation: mover2 1.8s infinite alternate;
         }
-        100% {
-            transform: translateY(-10px);
+        .menu2_image {
+            text-align: right;
+            position: relative;
+            z-index: 1;
+            img {
+                max-width: 800px;
+                animation: mover1 1.5s infinite alternate;
+            }
         }
-    }
-    @keyframes mover2 {
-        0% {
-            transform: translateY(-10px);
-        }
-        100% {
-            transform: translateY(0);
-        }
-    }
-}
-
-#footer {
-    text-align: center;
-    background-image: url(/images/black_background.jpg);
-    color: white;
-    .restaurant-name {
-        color: $header1color_straw;
-        font-size: 2em;
-        padding-top: 50px;
-        padding-bottom: 30px;
-        font-weight: 800;
-    }
-    p {
-        padding: 0 35%;
-        font-size: 0.9em;
-    }
-    .social-media {
-        margin: 50px auto;
-        ul {
-            list-style-position: none;
-            padding: 0;
+        .menu_option {
             display: flex;
-            justify-content: center;
-            li {
-                padding: 10px;
-                list-style-type: none;
-                display: inline-block;
+            justify-content: space-between;
+        }
+        h3 {
+            font-size: 2.2em;
+            margin-bottom: 30px;
+        }
+        .menu_title,
+        .price {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #92282D;
+        }
+        p {
+            font-size: 0.7em;
+            color: gray;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        @keyframes mover1 {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+        @keyframes mover2 {
+            0% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
             }
         }
     }
-    img {
-        transition: 0.2s ease-in;
-        &:hover {
-            transform: scale(1.4) translateY(-5px);
+    #footer {
+        text-align: center;
+        background-image: url(/images/black_background.jpg);
+        color: white;
+        .restaurant-name {
+            color: $header1color_straw;
+            font-size: 2em;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            font-weight: 800;
         }
-    }
-    .copyright {
-        padding-bottom: 5px;
+        p {
+            padding: 0 35%;
+            font-size: 0.9em;
+        }
+        .social-media {
+            margin: 50px auto;
+            ul {
+                list-style-position: none;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                li {
+                    padding: 10px;
+                    list-style-type: none;
+                    display: inline-block;
+                }
+            }
+        }
+        img {
+            transition: 0.2s ease-in;
+            &:hover {
+                transform: scale(1.4) translateY(-5px);
+            }
+        }
+        .copyright {
+            padding-bottom: 5px;
+        }
     }
 }

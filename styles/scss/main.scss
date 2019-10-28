@@ -4,7 +4,6 @@
 @import 'kasra_menu_footer';
 @import 'moumita_carousel';
 @import 'myle_reservation_contact';
-@import 'mobile_design';
 html {
     scroll-behavior: smooth;
 }
@@ -12,4 +11,53 @@ html {
 body {
     background-image: url(/images/white_background.jpg);
     font-family: $font-BreeSerif;
+}
+
+@media screen and (min-width: 375px) and (max-width:1000px) {
+    .container {
+        /*margin-bottom: 200px;*/
+        .menu1_image {
+            img {
+                width: 100%;
+            }
+        }
+        .menu_description1 {
+            padding: 20px;
+            width: 100%;
+            background-color: #FCFDAF;
+            border: 4px dashed rgba(146, 40, 45, 0.5);
+        }
+        .menu_description2 {
+            padding: 20px;
+            width: 100%;
+            background-color: #FCFDAF;
+            border: 4px dashed rgba(146, 40, 45, 0.5);
+        }
+        .menu2_image {
+            img {
+                width: 100%;
+            }
+        }
+        .menu_option {
+            display: flex;
+            justify-content: space-between;
+        }
+        h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .menu_title,
+        .price {
+            font-size: 1em;
+            font-weight: 600;
+            color: #92282D;
+        }
+        p {
+            font-size: 0.5em;
+            color: gray;
+        }
+        section {
+            margin-bottom: 10px;
+        }
+    }
 }
