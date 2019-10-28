@@ -48,10 +48,12 @@
     background-size: cover;
 }
 
-h2 {
-    text-align: center;
-    margin: 50px;
-    font-size: 2.5em;
+#ourstory {
+    border: 1px solid white;
+    h2 {
+        text-align: center;
+        font-size: 2.5em;
+    }
 }
 
 .container {
