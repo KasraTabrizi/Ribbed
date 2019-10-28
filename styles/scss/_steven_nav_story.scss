@@ -1,16 +1,41 @@
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.10);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
 .navbarimg {
     width: 100vw;
     height: 30px;
     overflow: cover;
     z-index: 90;
-    a {
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 5em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbar-dark .navbar-nav .nav-link {
         font-size: 1.5em;
-        font-weight: 800;
         color: #E09527;
+        font-weight: 800;
+        &:hover {
+            animation-name: pulse;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+        }
     }
-    .smlinks {
-        float: right;
-    }
+}
+
+.smlinks {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 5em;
 }
 
 .bg-dark {
@@ -36,14 +61,7 @@ h2 {
     margin-bottom: 200px;
     position: relative;
     .info {
-        padding: 60px;
-        width: 40%;
-        position: absolute;
-        z-index: 2;
-        box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);
-        background-color: #FCFDAF;
-        background-size: cover;
-        border: 4px dashed rgba(146, 40, 45, 0.5);
+        @include menucontact-description;
         top: 8%;
         right: 60%;
         h3 {

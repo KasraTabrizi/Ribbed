@@ -1,5 +1,6 @@
 @import 'variables';
 @import 'fonts';
+@import 'mixins';
 @import 'steven_nav_story';
 @import 'kasra_menu_footer';
 @import 'moumita_carousel';
@@ -10,4 +11,5 @@ html {
 
 body {
     background-image: url(/images/white_background.jpg);
+    font-family: $font-BreeSerif;
 }
