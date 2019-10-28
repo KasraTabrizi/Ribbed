@@ -1,5 +1,25 @@
 @media screen and (min-width: 375px) and (max-width: 999px) {
   .container {
+    position: relative;
+  }
+  .container .info {
+    padding: 20px;
+    width: 100%;
+  }
+  .container .info h3 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+  }
+  .container .info p {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #92282D;
+  }
+  .container .story-img img {
+    width: 100%;
+  }
+
+  .container {
     /*margin-bottom: 200px;*/
   }
   .container .menu1_image img {
@@ -47,6 +67,33 @@
   }
 }
 @media screen and (min-width: 1000px) {
+  .container .info {
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 10px 20px -14px #92282d;
+    top: 8%;
+    right: 60%;
+  }
+  .container .info h3 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+  }
+  .container .info p {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #92282D;
+  }
+  .container .story-img {
+    text-align: right;
+    position: relative;
+    z-index: 1;
+  }
+  .container .story-img img {
+    max-width: 800px;
+  }
+
   .container {
     margin-bottom: 200px;
     position: relative;
@@ -225,19 +272,11 @@ h2 {
 }
 
 .container {
-  margin-bottom: 200px;
   position: relative;
 }
 .container .info {
-  padding: 60px;
-  width: 40%;
-  position: absolute;
-  z-index: 2;
-  box-shadow: 0px 10px 20px -14px #92282d;
   background-color: #FCFDAF;
   border: 4px dashed rgba(146, 40, 45, 0.5);
-  top: 8%;
-  right: 60%;
 }
 .container .info h3 {
   font-size: 2.2em;
@@ -247,11 +286,6 @@ h2 {
   font-size: 1.2em;
   font-weight: 600;
   color: #92282D;
-}
-.container .story-img {
-  text-align: right;
-  position: relative;
-  z-index: 1;
 }
 .container .story-img img {
   max-width: 800px;

@@ -55,12 +55,10 @@ h2 {
 }
 
 .container {
-    margin-bottom: 200px;
     position: relative;
     .info {
-        @include menucontact-description;
-        top: 8%;
-        right: 60%;
+        background-color: #FCFDAF;
+        border: 4px dashed rgba(146, 40, 45, 0.5);
         h3 {
             font-size: 2.2em;
             margin-bottom: 30px;
@@ -72,9 +70,6 @@ h2 {
         }
     }
     .story-img {
-        text-align: right;
-        position: relative;
-        z-index: 1;
         img {
             max-width: 800px;
         }
