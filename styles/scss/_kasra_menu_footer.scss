@@ -1,16 +1,5 @@
 /*GENERAL STYLING USED FOR ALL MEDIA QUERIES*/
 
-@mixin menu-description {
-    padding: 60px;
-    width: 40%;
-    position: absolute;
-    z-index: 2;
-    box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);
-    background-color: #FCFDAF;
-    background-size: cover;
-    border: 4px dashed rgba(146, 40, 45, 0.5);
-}
-
 h2 {
     text-align: center;
     margin: 50px;
@@ -130,13 +119,13 @@ h2 {
             }
         }
         .menu_description1 {
-            @include menu-description;
+            @include menucontact-description;
             top: 20%;
             right: 1%;
             animation: mover2 2s infinite alternate;
         }
         .menu_description2 {
-            @include menu-description;
+            @include menucontact-description;
             top: 8%;
             right: 60%;
             animation: mover2 1.8s infinite alternate;

@@ -41,7 +41,6 @@ h2 {
   z-index: 2;
   box-shadow: 0px 10px 20px -14px #92282d;
   background-color: #FCFDAF;
-  background-size: cover;
   border: 4px dashed rgba(146, 40, 45, 0.5);
   top: 8%;
   right: 60%;
@@ -182,7 +181,6 @@ h2 {
     z-index: 2;
     box-shadow: 0px 10px 20px -14px #92282d;
     background-color: #FCFDAF;
-    background-size: cover;
     border: 4px dashed rgba(146, 40, 45, 0.5);
     top: 20%;
     right: 1%;
@@ -195,7 +193,6 @@ h2 {
     z-index: 2;
     box-shadow: 0px 10px 20px -14px #92282d;
     background-color: #FCFDAF;
-    background-size: cover;
     border: 4px dashed rgba(146, 40, 45, 0.5);
     top: 8%;
     right: 60%;
@@ -267,7 +264,7 @@ h2 {
 }
 
 .container {
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   position: relative;
 }
 .container .contact_image {
@@ -284,7 +281,6 @@ h2 {
   box-shadow: 0px 10px 20px -14px #92282d;
   background-color: #FCFDAF;
   border: 4px dashed rgba(146, 40, 45, 0.5);
-  background-size: cover;
   top: -10%;
   right: 1%;
 }

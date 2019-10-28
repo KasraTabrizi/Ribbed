@@ -36,14 +36,7 @@ h2 {
     margin-bottom: 200px;
     position: relative;
     .info {
-        padding: 60px;
-        width: 40%;
-        position: absolute;
-        z-index: 2;
-        box-shadow: 0px 10px 20px -14px rgba(146, 40, 45, 1);
-        background-color: #FCFDAF;
-        background-size: cover;
-        border: 4px dashed rgba(146, 40, 45, 0.5);
+        @include menucontact-description;
         top: 8%;
         right: 60%;
         h3 {
