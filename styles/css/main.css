@@ -337,6 +337,46 @@ body {
   .container section {
     margin-bottom: 10px;
   }
+
+  #footer {
+    text-align: center;
+    background-image: url(/images/black_background.jpg);
+    color: white;
+  }
+  #footer .restaurant-name {
+    color: #E1CA6E;
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 800;
+  }
+  #footer p {
+    padding: 0 35%;
+    font-size: 0.9em;
+  }
+  #footer .social-media {
+    margin: 50px auto;
+  }
+  #footer .social-media ul {
+    list-style-position: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  #footer .social-media ul li {
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  #footer img {
+    transition: 0.2s ease-in;
+  }
+  #footer img:hover {
+    transform: scale(1.4) translateY(-5px);
+  }
+  #footer .copyright {
+    padding-bottom: 5px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
