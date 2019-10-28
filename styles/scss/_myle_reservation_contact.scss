@@ -10,7 +10,7 @@
 }
 
 .container {
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     position: relative;
     .contact_image {
         text-align: right;
@@ -38,6 +38,15 @@
             margin-left: -15px;
         }
     }
+}
+
+.Reservation {
+    margin-bottom: 50px;
+}
+
+.col-md-5 {
+    padding: 4px;
+    margin: 10px;
 }
 
 .mapouter {
