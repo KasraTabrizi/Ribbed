@@ -7,21 +7,45 @@
     font-size: 5rem;
 }
 
-.ribtext {
-    margin: 0 auto;
-    margin-bottom: 150px;
-    color: rgb(238, 1, 1);
-    text-shadow: 3px 2px rgb(253, 249, 29);
+.ribtext{
+    margin: 0 auto; 
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .food {
-    color: rgb(204, 102, 19);
+    color:rgb(228, 208, 29);
+    text-shadow: 3px 3px rgb(194, 36, 44);
+
     font-size: 2rem;
 }
 
 .it {
-    color: rgb(87, 209, 5);
-    font-size: 2rem;
-    text-decoration-line: underline;
-    text-shadow: 2px 2px rgb(255, 251, 0);
+    color: rgb(0, 252, 210);
+    text-shadow: 2px 2px green;
+    font-size: 2rem;}
+
+
+.hd{
+    position: relative;
+
 }
+
+.ribtext h2 {
+    text-align: center;
+    color: rgb(255, 141, 11);
+    text-shadow: 5px 3px rgb(248, 2, 15);
+}
+
+.ribtext img{
+position:absolute;
+top: 1px;
+bottom: 2px;
+right:40px;
+}
+
+.pic{
+position: absolute;
+height: 40px;
+}
+
