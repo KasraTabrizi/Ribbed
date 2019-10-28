@@ -23,17 +23,20 @@ h2 {
         z-index: 1;
         img {
             max-width: 800px;
+            animation: mover1 1.5s infinite alternate;
         }
     }
     .menu_description1 {
         @include menu-description;
         top: 20%;
         right: 1%;
+        animation: mover2 1.8s infinite alternate;
     }
     .menu_description2 {
         @include menu-description;
         top: 8%;
         right: 60%;
+        animation: mover2 1.8s infinite alternate;
     }
     .menu2_image {
         text-align: right;
@@ -41,6 +44,7 @@ h2 {
         z-index: 1;
         img {
             max-width: 800px;
+            animation: mover1 1.5s infinite alternate;
         }
     }
     .menu_option {
@@ -63,6 +67,22 @@ h2 {
     }
     section {
         margin-bottom: 30px;
+    }
+    @keyframes mover1 {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-10px);
+        }
+    }
+    @keyframes mover2 {
+        0% {
+            transform: translateY(-10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
     }
 }
 
