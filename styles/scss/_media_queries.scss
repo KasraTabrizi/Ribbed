@@ -125,6 +125,10 @@
             max-width: 800px;
         }
         .contact_description {
+            padding: 60px;
+            width: 40%;
+            position: absolute;
+            z-index: 2;
             top: -10%;
             right: 1%;
             h3 {
