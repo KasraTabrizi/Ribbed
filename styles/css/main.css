@@ -64,14 +64,102 @@ h2 {
   max-width: 800px;
 }
 
-@media screen and (min-width: 1000px) {
-  h2 {
-    text-align: center;
-    margin: 50px;
-    padding: 50px;
-    font-size: 2.5em;
-  }
+/*GENERAL STYLING USED FOR ALL MEDIA QUERIES*/
+h2 {
+  text-align: center;
+  margin: 50px;
+  padding: 50px;
+  font-size: 2.5em;
+}
 
+.container .menu_option {
+  display: flex;
+  justify-content: space-between;
+}
+.container h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+.container .menu_title,
+.container .price {
+  font-size: 1em;
+  font-weight: 600;
+  color: #92282D;
+}
+.container p {
+  font-size: 0.5em;
+  color: gray;
+}
+
+#footer {
+  text-align: center;
+  background-image: url(/images/black_background.jpg);
+  color: white;
+}
+#footer .restaurant-name {
+  color: #E1CA6E;
+  font-size: 2em;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-weight: 800;
+}
+#footer p {
+  padding: 0 35%;
+  font-size: 0.9em;
+}
+#footer .social-media {
+  margin: 50px auto;
+}
+#footer .social-media ul {
+  list-style-position: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+#footer .social-media ul li {
+  padding: 10px;
+  list-style-type: none;
+  display: inline-block;
+}
+#footer img {
+  transition: 0.2s ease-in;
+}
+#footer img:hover {
+  transform: scale(1.4) translateY(-5px);
+}
+#footer .copyright {
+  padding-bottom: 5px;
+}
+
+/*MEDIA SCREEN BETWEEN 375 PX AND 1000 PX*/
+@media screen and (min-width: 375px) and (max-width: 1000px) {
+  .container {
+    /*margin-bottom: 200px;*/
+  }
+  .container .menu1_image img {
+    width: 100%;
+  }
+  .container .menu_description1 {
+    padding: 20px;
+    width: 100%;
+    background-color: #FCFDAF;
+    border: 4px dashed rgba(146, 40, 45, 0.5);
+  }
+  .container .menu_description2 {
+    padding: 20px;
+    width: 100%;
+    background-color: #FCFDAF;
+    border: 4px dashed rgba(146, 40, 45, 0.5);
+  }
+  .container .menu2_image img {
+    width: 100%;
+  }
+  .container section {
+    margin-bottom: 10px;
+  }
+}
+/*MEDIA SCREEN for 1000px and higher*/
+@media screen and (min-width: 1000px) {
   .container {
     margin-bottom: 200px;
     position: relative;
@@ -119,19 +207,9 @@ h2 {
     max-width: 800px;
     animation: mover1 1.5s infinite alternate;
   }
-  .container .menu_option {
-    display: flex;
-    justify-content: space-between;
-  }
   .container h3 {
     font-size: 2.2em;
     margin-bottom: 30px;
-  }
-  .container .menu_title,
-.container .price {
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #92282D;
   }
   .container p {
     font-size: 0.7em;
@@ -155,46 +233,6 @@ h2 {
     100% {
       transform: translateY(0);
     }
-  }
-
-  #footer {
-    text-align: center;
-    background-image: url(/images/black_background.jpg);
-    color: white;
-  }
-  #footer .restaurant-name {
-    color: #E1CA6E;
-    font-size: 2em;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    font-weight: 800;
-  }
-  #footer p {
-    padding: 0 35%;
-    font-size: 0.9em;
-  }
-  #footer .social-media {
-    margin: 50px auto;
-  }
-  #footer .social-media ul {
-    list-style-position: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  #footer .social-media ul li {
-    padding: 10px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  #footer img {
-    transition: 0.2s ease-in;
-  }
-  #footer img:hover {
-    transform: scale(1.4) translateY(-5px);
-  }
-  #footer .copyright {
-    padding-bottom: 5px;
   }
 }
 .carousel-item img {
@@ -292,91 +330,6 @@ html {
 body {
   background-image: url(/images/white_background.jpg);
   font-family: "Bree Serif", serif;
-}
-
-@media screen and (min-width: 375px) and (max-width: 1000px) {
-  .container {
-    /*margin-bottom: 200px;*/
-  }
-  .container .menu1_image img {
-    width: 100%;
-  }
-  .container .menu_description1 {
-    padding: 20px;
-    width: 100%;
-    background-color: #FCFDAF;
-    border: 4px dashed rgba(146, 40, 45, 0.5);
-  }
-  .container .menu_description2 {
-    padding: 20px;
-    width: 100%;
-    background-color: #FCFDAF;
-    border: 4px dashed rgba(146, 40, 45, 0.5);
-  }
-  .container .menu2_image img {
-    width: 100%;
-  }
-  .container .menu_option {
-    display: flex;
-    justify-content: space-between;
-  }
-  .container h3 {
-    font-size: 1.8em;
-    margin-bottom: 10px;
-  }
-  .container .menu_title,
-.container .price {
-    font-size: 1em;
-    font-weight: 600;
-    color: #92282D;
-  }
-  .container p {
-    font-size: 0.5em;
-    color: gray;
-  }
-  .container section {
-    margin-bottom: 10px;
-  }
-
-  #footer {
-    text-align: center;
-    background-image: url(/images/black_background.jpg);
-    color: white;
-  }
-  #footer .restaurant-name {
-    color: #E1CA6E;
-    font-size: 2em;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    font-weight: 800;
-  }
-  #footer p {
-    padding: 0 35%;
-    font-size: 0.9em;
-  }
-  #footer .social-media {
-    margin: 50px auto;
-  }
-  #footer .social-media ul {
-    list-style-position: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-  }
-  #footer .social-media ul li {
-    padding: 10px;
-    list-style-type: none;
-    display: inline-block;
-  }
-  #footer img {
-    transition: 0.2s ease-in;
-  }
-  #footer img:hover {
-    transform: scale(1.4) translateY(-5px);
-  }
-  #footer .copyright {
-    padding-bottom: 5px;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
