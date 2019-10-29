@@ -14,10 +14,13 @@
     width: 100vw;
     height: 30px;
     z-index: 90;
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 5em;
+    .navbar-expand-md .navbar-nav {
+        margin: 0 auto;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
+    }
+    .navbar-nav .nav-link {
+        padding-left: 5em;
     }
     .navbar-dark .navbar-nav .nav-link {
         font-size: 1.3em;
