@@ -28,17 +28,15 @@
     position: relative;
 }
 
-.ribtext h2 {
+.maintitle {
+    font-size: 2.2em;
     text-align: center;
     color: rgb(255, 141, 11);
     text-shadow: 5px 3px rgb(248, 2, 15);
 }
 
 .ribtext img {
-    position: absolute;
-    top: 1px;
-    bottom: 2px;
-    right: 40px;
+    padding-left: -25px;
 }
 
 .pic {

@@ -404,17 +404,15 @@ h2 {
   position: relative;
 }
 
-.ribtext h2 {
+.maintitle {
+  font-size: 2.2em;
   text-align: center;
   color: #ff8d0b;
   text-shadow: 5px 3px #f8020f;
 }
 
 .ribtext img {
-  position: absolute;
-  top: 1px;
-  bottom: 2px;
-  right: 40px;
+  padding-left: -25px;
 }
 
 .pic {
