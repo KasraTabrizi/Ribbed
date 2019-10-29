@@ -328,7 +328,7 @@
 }
 
 .bg-dark.scrolled {
-  background-image: url(/images/black_background.jpg) !important;
+  background-image: url(/images/black_background.webp) !important;
   background-size: cover;
 }
 
@@ -408,7 +408,7 @@ h2 {
 
 #footer {
   text-align: center;
-  background-image: url(/images/black_background.jpg);
+  background-image: url(/images/black_background.webp);
   color: white;
 }
 
@@ -560,7 +560,7 @@ html {
 }
 
 body {
-  background-image: url(/images/white_background.jpg);
+  background-image: url(/images/white_background.webp);
   font-family: "Bree Serif", serif;
 }
 /*# sourceMappingURL=main.css.map */
