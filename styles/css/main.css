@@ -455,6 +455,14 @@ h2 {
   justify-items: center;
 }
 
+.icons {
+  padding-left: 15px;
+}
+
+.icons li {
+  list-style-type: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
