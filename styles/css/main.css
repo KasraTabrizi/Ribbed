@@ -238,7 +238,6 @@
 .navbarimg {
   width: 100vw;
   height: 30px;
-  overflow: cover;
   z-index: 90;
 }
 .navbarimg .navbar-expand-md .navbar-nav .nav-link {
@@ -354,7 +353,6 @@ h2 {
   margin: 50px auto;
 }
 #footer .social-media ul {
-  list-style-position: none;
   padding: 0;
   display: flex;
   justify-content: center;
