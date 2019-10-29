@@ -20,7 +20,7 @@
         justify-content: space-evenly;
     }
     .navbar-dark .navbar-nav .nav-link {
-        font-size: 1.5em;
+        font-size: 1.3em;
         color: #E1CA6E;
         font-weight: 800;
         &:hover {
@@ -46,6 +46,13 @@
     background-image: url(/images/black_background.webp) !important;
     /*background-image: url(https://raw.githubusercontent.com/KasraTabrizi/Ribbed/master/images/black_background.webp) !important;*/
     background-size: cover;
+}
+
+.navbar-dark {
+    .navbar-toggler {
+        color: #E1CA6E !important;
+        border-color: #E1CA6E !important;
+    }
 }
 
 #ourstory {
