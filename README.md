@@ -11,7 +11,7 @@ One pager
 - Kasra
 - Steven
 - Moumita
-- Hanna
+- MyLe
 
 ## Task(s) of each member:
 
@@ -20,7 +20,7 @@ Member | Task
 Kasra | Project Manager & Menu Section & footer
 Steven | Navbar & Our Story Section
 Moumita | Carousel & Logo Design
-Hanna | Contact & Reservation
+MyLe | Contact & Reservation
 
 
 ## Language/Frameworks to use
