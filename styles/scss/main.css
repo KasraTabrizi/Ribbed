@@ -318,6 +318,10 @@ h2 {
   justify-items: center;
 }
 
+.icons {
+  list-style: none;
+}
+
 html {
   scroll-behavior: smooth;
 }

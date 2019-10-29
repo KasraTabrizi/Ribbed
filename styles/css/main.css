@@ -203,7 +203,7 @@ h2 {
 }
 
 .container {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   position: relative;
 }
 .container .contact_image {
@@ -240,6 +240,15 @@ h2 {
   margin-left: -15px;
 }
 
+.Reservation {
+  margin-bottom: 50px;
+}
+
+.col-md-5 {
+  padding: 4px;
+  margin: 10px;
+}
+
 .mapouter {
   position: relative;
   text-align: right;
@@ -260,6 +269,10 @@ h2 {
 
 .row {
   justify-items: center;
+}
+
+.icons li {
+  list-style-type: none;
 }
 
 html {
