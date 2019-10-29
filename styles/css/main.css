@@ -268,7 +268,8 @@
 }
 
 .bg-dark.scrolled {
-  background-image: url(/images/black_background.webp) !important;
+  /*background-image: url(/images/black_background.webp);*/
+  background-image: url(https://raw.githubusercontent.com/KasraTabrizi/Ribbed/master/images/black_background.webp) !important;
   background-size: cover;
 }
 
@@ -335,7 +336,8 @@ h2 {
 
 #footer {
   text-align: center;
-  background-image: url(/images/black_background.webp);
+  /*background-image: url(/images/black_background.webp);*/
+  background-image: url(https://raw.githubusercontent.com/KasraTabrizi/Ribbed/master/images/black_background.webp);
   color: white;
 }
 #footer .restaurant-name {
@@ -446,7 +448,8 @@ h2 {
 }
 
 .resimage {
-  background-image: url(/images/black_background.webp);
+  /*background-image: url(/images/black_background.webp);*/
+  background-image: url(https://raw.githubusercontent.com/KasraTabrizi/Ribbed/master/images/black_background.webp);
 }
 
 .row {
@@ -466,7 +469,8 @@ html {
 }
 
 body {
-  background-image: url(/images/white_background.webp);
+  /*background-image: url(/images/white_background.webp);*/
+  background-image: url(https://raw.githubusercontent.com/KasraTabrizi/Ribbed/master/images/white_background.webp);
   font-family: "Bree Serif", serif;
 }
 
