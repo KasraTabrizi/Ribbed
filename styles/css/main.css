@@ -352,6 +352,12 @@ h2 {
   padding-bottom: 30px;
   font-weight: 800;
 }
+#footer .restaurant-name img {
+  transition: 0.2s ease-in;
+}
+#footer .restaurant-name img:hover {
+  transform: scale(0.8);
+}
 #footer p {
   padding: 0 35%;
   font-size: 0.9em;
