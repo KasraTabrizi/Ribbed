@@ -410,7 +410,9 @@ h2 {
 }
 
 .ribtext img {
-  padding-left: -25px;
+  position: absolute;
+  top: 50px;
+  left: 5px;
 }
 
 .pic {
